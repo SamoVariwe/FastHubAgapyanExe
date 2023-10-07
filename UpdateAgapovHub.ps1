@@ -1,6 +1,6 @@
 ﻿cd $PWD
 git stash --all
-gh repo sync
+git sync
 git stash pop
 $key = $Host.UI.RawUI.ReadKey
 if ($key.Character -eq '1') {
