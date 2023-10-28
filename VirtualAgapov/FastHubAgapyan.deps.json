@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "FastHubAgapyan/1.0.0": {
         "dependencies": {
-          "EPPlus": "6.2.10",
+          "EPPlus": "6.2.11",
           "Microsoft.Recognizers.Text.Choice": "1.8.8",
           "NltkNet": "1.0.14",
           "Selenium.WebDriver": "4.13.1"
@@ -34,42 +34,6 @@
           "lib/netcoreapp2.1/Microsoft.Scripting.dll": {
             "assemblyVersion": "1.2.2.0",
             "fileVersion": "1.2.2.1000"
-          }
-        }
-      },
-      "EPPlus/6.2.10": {
-        "dependencies": {
-          "EPPlus.Interfaces": "6.1.1",
-          "EPPlus.System.Drawing": "6.1.1",
-          "Microsoft.Extensions.Configuration.Json": "6.0.0",
-          "Microsoft.IO.RecyclableMemoryStream": "2.2.1",
-          "System.Security.Cryptography.Pkcs": "6.0.3",
-          "System.Text.Encoding.CodePages": "6.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/EPPlus.dll": {
-            "assemblyVersion": "6.2.10.0",
-            "fileVersion": "6.2.10.0"
-          }
-        }
-      },
-      "EPPlus.Interfaces/6.1.1": {
-        "runtime": {
-          "lib/net6.0/EPPlus.Interfaces.dll": {
-            "assemblyVersion": "6.1.1.0",
-            "fileVersion": "6.1.1.0"
-          }
-        }
-      },
-      "EPPlus.System.Drawing/6.1.1": {
-        "dependencies": {
-          "EPPlus.Interfaces": "6.1.1",
-          "System.Drawing.Common": "7.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/EPPlus.System.Drawing.dll": {
-            "assemblyVersion": "6.1.1.0",
-            "fileVersion": "6.1.1.0"
           }
         }
       },
@@ -411,7 +375,34 @@
         }
       },
       "System.ValueTuple/4.5.0": {},
-      "vswhere/2.8.4": {}
+      "vswhere/2.8.4": {},
+      "EPPlus/6.2.11": {
+        "dependencies": {
+          "EPPlus.Interfaces": "6.1.1",
+          "EPPlus.System.Drawing": "6.1.1",
+          "Microsoft.Extensions.Configuration.Json": "6.0.0",
+          "Microsoft.IO.RecyclableMemoryStream": "2.2.1",
+          "System.Security.Cryptography.Pkcs": "6.0.3",
+          "System.Text.Encoding.CodePages": "6.0.0"
+        },
+        "runtime": {
+          "EPPlus.dll": {}
+        }
+      },
+      "EPPlus.Interfaces/6.1.1": {
+        "runtime": {
+          "EPPlus.Interfaces.dll": {}
+        }
+      },
+      "EPPlus.System.Drawing/6.1.1": {
+        "dependencies": {
+          "EPPlus.Interfaces": "6.1.1",
+          "System.Drawing.Common": "7.0.0"
+        },
+        "runtime": {
+          "EPPlus.System.Drawing.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -426,27 +417,6 @@
       "sha512": "sha512-xNsMK0WWX85K5CNIIdjiHa3Va6hIZA5/GRBoMYG7KJ+iU6pCFFJMmq/EL0QjHmzWO14PQqviIZ0JQHCArv4gjQ==",
       "path": "dynamiclanguageruntime/1.2.2",
       "hashPath": "dynamiclanguageruntime.1.2.2.nupkg.sha512"
-    },
-    "EPPlus/6.2.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-U/kj9mKoUMOMUvNIMwbD7xy4R/UTyc9baMVxDWQhYaeIueCviC12feQ3qbcUJZc8yyodC8gAj0BhzBg/wFIjTg==",
-      "path": "epplus/6.2.10",
-      "hashPath": "epplus.6.2.10.nupkg.sha512"
-    },
-    "EPPlus.Interfaces/6.1.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-y7dkrOoE1ZR9Vgy1Jf2rEIaTf3SHlUjYt01NklP+F5Qh7S2ruPbzTcpYLRWMeXiG8XL8h2jqX4CyIkFt3NQGZw==",
-      "path": "epplus.interfaces/6.1.1",
-      "hashPath": "epplus.interfaces.6.1.1.nupkg.sha512"
-    },
-    "EPPlus.System.Drawing/6.1.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-lRF5gHYrmkHOOiLMI0t6q8zNYjUrzRgAM5BCXumv5xiqXko8fx3AWI+HCNZfhEqVFGOop+42KfR5GiUcCoyoMw==",
-      "path": "epplus.system.drawing/6.1.1",
-      "hashPath": "epplus.system.drawing.6.1.1.nupkg.sha512"
     },
     "IronPython/2.7.9": {
       "type": "package",
@@ -734,6 +704,21 @@
       "sha512": "sha512-vnprpt1NycD1CrUecoj+EQHY3LGqGvCrSK9NrhORiT9TnZ2J1Ve9qYYddLBaX207uyBWImDv8QuMv/95Bd3V6w==",
       "path": "vswhere/2.8.4",
       "hashPath": "vswhere.2.8.4.nupkg.sha512"
+    },
+    "EPPlus/6.2.11": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EPPlus.Interfaces/6.1.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EPPlus.System.Drawing/6.1.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
