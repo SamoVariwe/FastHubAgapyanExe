@@ -11,7 +11,7 @@
           "EPPlus": "6.2.11",
           "Microsoft.Recognizers.Text.Choice": "1.8.8",
           "NltkNet": "1.0.14",
-          "Selenium.WebDriver": "4.13.1"
+          "Selenium.WebDriver": "4.15.0"
         },
         "runtime": {
           "FastHubAgapyan.dll": {}
@@ -280,7 +280,7 @@
         }
       },
       "NuGet.CommandLine/5.9.3": {},
-      "Selenium.WebDriver/4.13.1": {
+      "Selenium.WebDriver/4.15.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
           "System.Drawing.Common": "7.0.0"
@@ -579,12 +579,12 @@
       "path": "nuget.commandline/5.9.3",
       "hashPath": "nuget.commandline.5.9.3.nupkg.sha512"
     },
-    "Selenium.WebDriver/4.13.1": {
+    "Selenium.WebDriver/4.15.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7asjwKWgLNjIe+NZ9GwiWWshRD9IWQzltZPiWFxF7UH62ymqjD5L0PUsWJlDm4cew1YHhcqcQpGkgi6FsGZaig==",
-      "path": "selenium.webdriver/4.13.1",
-      "hashPath": "selenium.webdriver.4.13.1.nupkg.sha512"
+      "sha512": "sha512-/uMlgsPdsmAAwOADxA4lzz777Xgbhm/SjmvizBpiRDyZtnAxDZ0uON5bpTN+De9F81xB/1z/S8jKN1P7ebYssw==",
+      "path": "selenium.webdriver/4.15.0",
+      "hashPath": "selenium.webdriver.4.15.0.nupkg.sha512"
     },
     "System.CodeDom/4.5.0": {
       "type": "package",
